@@ -1,0 +1,73 @@
+* {
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Holtwood One SC', serif;
+    color: white;
+}
+
+body {
+    background-color: white;
+}
+
+#main {
+    height: 300px;
+    width: 500px;
+    background-color: #082C2B;
+    /* background-image: ; */
+    border-radius: 10px;
+    box-shadow: #59658c 4px 3px 12px 3px;
+}
+
+h1 {
+    background-image: radial-gradient(circle, #ca12c6, #ff007c, #ff632c, #f6b100, #a8eb12);
+    padding-left: 12px;
+    padding-top: px;
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#color_main {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+#red {
+    margin: 0px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+}
+
+#yellow {
+    margin: 0px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: inline-block;
+
+}
+
+#blue {
+    margin: 0px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    display: inline-block;
+}
+
+ol {
+    line-height: 10px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #afcc14, #34bb5c, #00a089, #008096, #005e81, #2b5583, #484b7d, #5e3f70, #944073, #c34462, #df5b42, #e18208);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

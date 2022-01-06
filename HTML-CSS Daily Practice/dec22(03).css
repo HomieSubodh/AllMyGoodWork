@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellowgreen; */
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+.mid {
+    margin-top: 1em;
+    position: relative;
+}
+
+.mid > h1 {
+    text-align: center;
+}
+
+i {
+    color: rgba(252, 79, 10, 0.849);
+    margin-right: .5em;
+    font-size: 1.2em;
+
+}
+
+.list_div {
+    /*display: none;
+    */height: 30em;
+    width: 30em;
+    background-color: rgb(223, 209, 21);
+    position: absolute;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.list_div:hover {
+    margin-left: 40em;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    margin-top: 3em;
+}
+
+.imp:hover .list_div{
+    margin: auto;
+}
+
+::selection {
+    color: blue;
+    background-color: rgba(255, 136, 0, 0.568);
+}

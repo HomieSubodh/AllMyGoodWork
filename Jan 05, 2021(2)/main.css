@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Space+Grotesk:wght@300;400;500&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    border: 2px solid;
+}
+.menu ul {
+    padding-top: 4%;
+    margin-left: 10em;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 10em;
+}
+

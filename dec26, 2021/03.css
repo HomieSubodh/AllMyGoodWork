@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Gugi&family=Pushster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 5em;
+    background-color: #0E141A;
+}
+
+.new_yr_sale {
+    height: 13em;
+    width: 20em;
+    background-color: lightgreen;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 2px 9px 2px lightgreen;
+}
+
+.new_yr_sale .mini_div {
+    margin-top: 1em;
+    height: 1.6em;
+    width: 3.5em;
+    background-color: yellow;
+    float: right;
+}
+
+.new_yr_sale .mini_div::before {
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-top: .85em solid transparent;
+    border-left: .85em solid transparent;
+    border-bottom: .85em solid transparent;
+    border-right: .85em solid lightgreen;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    /* z-index: 5; */
+}
+
+/* .new_yr_sale .mini_div::after {
+    position: absolute;
+    content: '';
+    margin-top: 1em;
+    height: 1.6em;
+    width: 3.5em;
+    background-color: yellow;
+    position: absolute;
+    top: .15em;
+    left: 16.8em;
+    display: none;
+} */
+
+.new_yr_sale .mini_div p{
+    font-family: 'Pushster', cursive;
+    font-weight: bold;
+    font-size: .75em;
+    text-align: center;
+    margin-top: .3em;
+    margin-left: .9em;
+    color: red;
+}
+
+.new_yr_sale .mini_div:hover .new_yr_sale{
+    display: none;
+}
+
+.new_yr_sale img {
+    height: 5em;
+    width: 5em;
+    position: absolute;
+    top: -2em;
+    left: -2em;
+}
+
+.new_yr_sale img.two {
+    height: 9em;
+    width: 9em;
+    z-index: 3;
+    top: -2.9em;
+    left: 14.3em;
+    transform: rotate(20deg) skew(2deg);
+    -webkit-transform: rotate(20deg) skew(2deg);
+    -moz-transform: rotate(20deg) skew(2deg);
+    -ms-transform: rotate(20deg) skew(2deg);
+    -o-transform: rotate(20deg) skew(2deg);
+}
+
+div:nth-child(2) {
+    margin-top: 10em;
+    color: white;
+    font-family: 'Pushster', cursive;
+    text-align: center;
+    margin-left: 10em;
+}
+
+div:nth-child(2) img {
+    height: 5em;
+    width: 5em;
+}
+
+.div_two .snowman {
+    margin-right: 9em;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.div_two .snowman:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+img.fir {
+    display: inline-block;
+    margin-top: -4em;
+    margin-left: -5em;
+}
+
+.div_two h1 span {
+    margin-left: 5em;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    width: 5em;
+    margin: auto;
+    margin-top: 2em;
+    background-color: lightgreen;
+}
+
+.hr_two {
+    width: 10em;
+}
+
+.new_yr_sale .one {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.new_yr_sale .one:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+

@@ -1,0 +1,59 @@
+#main {
+    height: 800px;
+    width: 50%;
+    margin: auto;
+    background-color: grey;
+    position: relative;
+    overflow: hidden;
+}
+
+#main img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#main img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    opacity: 70%;
+}
+
+#main img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#main img:nth-child(3) {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+
+
+

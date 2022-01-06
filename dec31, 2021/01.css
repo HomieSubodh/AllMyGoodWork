@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&family=Staatliches&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+::selection {
+    background-color: orange;
+    color: rgb(126, 84, 223);
+}
+main {
+    height: 10em;
+    width: 70%;
+    padding: 1em;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: rgb(241, 74, 8);
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    /* background-color: white; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+main h1 {
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 3em;
+}
+
+main .container img {
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    bottom: 1.9em;
+}
+
+.btn_one {
+    height: 3em;
+    width: 12em;
+    border: none;
+    font-size: 2em;
+    font-family: 'Staatliches', cursive;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+    background-color: rgba(128, 247, 31, 0.904);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    box-shadow: 2px 6px 36px 4px rgba(128, 247, 31, 0.904);
+}
+
+.btn_one:hover {
+    background-color: rgb(241, 74, 8);
+    color: white;
+}

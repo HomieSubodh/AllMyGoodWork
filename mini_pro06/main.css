@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    box-sizing: border-box;
+}
+
+body {}
+
+.main_div {
+    height: 25em;
+    width: 40em;
+    margin: auto;
+    margin-top: 17em;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.div_left {
+    height: 100%;
+    width: 20em;
+    float: left;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-image: url("https://images.unsplash.com/photo-1626282874411-e1f847fc3700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+}
+
+.div_left h1 {
+    font-family: 'Galada', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 4.5em;
+}
+
+.div_right {
+    height: 100%;
+    float: right;
+    width: 20em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1007887873/thumb/1.jpg');
+    font-family: 'Concert One', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.border{
+    margin: auto;
+    margin-top: 7em;
+
+}
+
+.borders {
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-left: 6em;
+    height: 1.5em;
+}
+
+input{
+    font-family: inherit;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+
+img{
+    height: 3em;
+    margin-left: 15em;
+    margin-top: 13em;
+}

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main {
+    height: 100em;
+    width: 130em;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 2em;
+}
+
+.down {
+    height: 7em;
+    width: 70em;
+    background-color: #b4e409be;
+    margin: auto;
+    margin-top: 5em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    overflow: visible;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.inner {
+    height: 7em;
+    width: 70em;
+    background-color: #03045e;
+    position: absolute;
+    bottom: 2em;
+    left: 5em;
+    overflow: visible;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.inner > .inside {
+    height: 2em;
+    width: 13em;
+    margin-top: 1.99em;
+    background-color: #b4e409be;
+    border-radius: 0 10px 10px 0px;
+    -webkit-border-radius: 0 10px 10px 0px;
+    -moz-border-radius: 0 10px 10px 0px;
+    -ms-border-radius: 0 10px 10px 0px;
+    -o-border-radius: 0 10px 10px 0px;
+    opacity: 80%;
+}
+
+.inner > .inside h1 {
+    font-size: 1.5em;
+    color: white;
+    /* margin-left: 1em; */
+    text-align: center;
+}
+
+.u_down:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}

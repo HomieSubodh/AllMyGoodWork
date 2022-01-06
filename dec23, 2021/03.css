@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Passion One', cursive;
+}
+
+::selection {
+    background-color: rgb(238, 80, 17);
+}
+
+body {
+    background-color: #0E141A;
+}
+
+.main {
+    height: 10em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main>.mid {
+    width: 60%;
+    margin: auto;
+    margin-top: 1em;
+    position: relative;
+}
+
+.mid a {
+    font-family: 'Passion One', cursive;
+    text-decoration: none;
+    font-size: 2.2em;
+    color: rgba(238, 139, 10, 0.856);
+    margin-left: 1em;
+}
+
+.mid a {
+    transition: 1.2s;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+}
+
+.mid a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(8, 238, 123);
+    color: white;
+}
+
+.mid i {
+    margin-top: .3em;
+    margin-right: 3em;
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    right: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    display: inline-block;
+}
+
+.mid i:hover {
+    transform: scale(1.4) rotate(90deg);
+    -webkit-transform: scale(1.4) rotate(90deg);
+    -moz-transform: scale(1.4) rotate(90deg);
+    -ms-transform: scale(1.4) rotate(90deg);
+    -o-transform: scale(1.4) rotate(90deg);
+    color: red;
+}
+
+.content p:nth-child(4) {
+    height: 13em;
+    width: 40em;
+    margin: auto;
+    padding: 1em;
+    border: 2px solid red;
+    color: white;
+    font-size: 2em;
+    border-bottom: none;
+    text-align: justify;
+}

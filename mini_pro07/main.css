@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #2585EB;
+    background-color: royalblue;
+}
+
+.main {
+    height: 50em;
+    width: 100em;
+    background-color: royalblue;
+    margin-left: 10em;
+    margin-top: 4em;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.left {
+    background-image: url('fb-login.jpg');
+    background-size: 60em 50em;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60%;
+    border-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+
+.right {
+    height: 70%;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.15);
+    background: #2585EB;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: inline-block;
+    margin-bottom: 10em;
+    margin-left: 5em;
+    overflow: hidden;
+}
+
+.right #second {
+    height: 15em;
+    width: 15em;
+    margin-left: 9em;
+}
+
+.right input {
+    height: 2em;
+    width: 20em;
+    margin-left: 8.5em;
+    text-align: center;
+    border: none;
+    background-color: rgb(174, 208, 219);
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+    font-family: 'Concert One', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+.right button{
+    display: block;
+    margin-left: 8.5em;
+    margin-top: 1.5em;
+    height: 2em;
+    width: 20em;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+    font-family: 'Concert One', cursive;
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(55, 67, 177);
+    color: white;
+    border: none;
+}
+
+.right input:hover{
+    box-shadow: 0 0 5px 5px rgb(174, 208, 219);
+}
+
+.right a{
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 11em;
+    color: white;
+}
+
+.right hr{
+    width: 20em;
+    margin-left: 5.9em;
+    border: none;
+    border-bottom: .1em solid rgb(230, 130, 17);
+}
+
+.right #two{
+    background-color: green ;
+}
+
+
+
+.narror_div {
+    height: 1.5em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    overflow: hidden;
+    display: inline-block;
+    width: 20em;
+}
+
+.circle {
+    height: .8em;
+    width: .8em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: .3em;
+    display: inline-block;
+}
+
+.circle_one {
+    background-color: rgb(241, 10, 10);
+
+}
+
+.circle_two {
+    background-color: rgb(192, 240, 22);
+}
+
+.circle_three {
+    background-color: rgb(100, 240, 6);
+}

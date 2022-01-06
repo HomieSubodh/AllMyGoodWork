@@ -1,0 +1,46 @@
+/* CSS Positioning */
+
+@font-face {
+    src: url('/HTML-CSS Daily Practice/Staatliches-Regular.ttf');
+    font-family: h1-font;
+}
+
+*{
+    font-family: h1-font;
+    height: 5px;
+    width: 5px;
+}
+
+body{
+    height: 150em;
+    width: 140em;
+}
+
+#green{
+    height: 25em;
+    width: 50em;
+    background-color: green;
+    margin: auto;
+    margin-top: 2em;
+    position: relative;
+}
+
+#red{
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0em;
+    margin: auto;
+}
+
+
+

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    height: 80em;
+    width: 100%;
+}
+
+.up {
+    height: 50%;
+    background-color: rgb(245, 202, 9);
+    overflow: hidden;
+}
+
+.up h1 {
+    margin-top: 5em;
+    margin-left: 15em;
+    font-size: 3em;
+    color: rgba(63, 8, 8, 0.788);
+}
+
+#btn_one {
+    margin: auto;
+    height: 4em;
+    width: 25em;
+    border-radius: 2em;
+    background-color: black;
+    margin-left: 110em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+
+#btn_one #left, #right {
+    height: 50%;
+    width: 48%;
+    box-sizing: inline-block;
+    margin-top: 1em;
+    margin-left: .3em;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    color: white;
+}
+
+#left{
+    background-color: black;
+    border: none;
+    font-size: 1.5em;
+}
+
+#right{
+    /* height: 100%; */
+    background-color: white;
+    border: none;
+    font: 1.5em;
+    color: black;
+
+}
+.main {
+    position: relative;
+    bottom: 12em;
+    left: 42em;
+}
+
+.main > div {
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    width: 340px;
+    background-color: rgba(230, 71, 31, 0.671);
+    box-shadow: 0 0 10 10 white;
+    padding-top: 1em;
+    box-shadow: #e2686883 2px 2px 5px 0px;
+}
+
+.main>div button {
+    background-color: black;
+    color: wheat;
+    height: 2em;
+    width: 10em;
+    font-size: 1.4em;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    margin-left: 2.5em;
+}
+
+.main ul>li {
+    font-size: 2em;
+    text-align: center;
+    list-style: none;
+    font-family: 'Road Rage', cursive;
+}
+
+#div_one {
+    height: 530px;
+    position: absolute;
+    left: 1em;
+}
+
+.main h1,
+h2,
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.main h1 {
+    font-size: 4em;
+}
+
+#div_two {
+    height: 600px;
+    position: absolute;
+    left: 23em;
+}
+
+#div_three {
+    height: 750px;
+    display: inline-block;
+    position: absolute;
+    left: 45em;
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background: #000B18;
+}
+
+.main{
+    margin: auto;
+    margin-top: 3em;
+    height: 25em;
+    width: 15em;
+    background-color: rgba(189, 122, 22, 0.788);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    position: relative;
+}
+
+#invisible {
+    color: white;
+    visibility: visible;
+    font-weight: bolder;
+    position: absolute;
+    top: 8em;
+    left: 3.7em;
+    font-size: 1.2em;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+
+.main > .curve {
+    height: 30%;
+    width: 15em;
+    background-color: orange;
+    border-radius: 5% 5% 30% 30%;
+    -webkit-border-radius: 5% 5% 30% 30%;
+    -moz-border-radius: 5% 5% 25% 25%;
+    -ms-border-radius: 5% 5% 30% 30%;
+    -o-border-radius: 5% 5% 30% 30%;
+    overflow: hidden;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.curve > h1 {
+    text-align: center;
+    color: white;
+    margin-top: 1.5em;
+
+}
+
+.main:hover {
+    margin-top: 10em;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.main:hover #invisible {
+    margin-left: -4em;
+    margin-top: 6em;
+    /* font-family: 'Bebas Neue', cursive;
+    font-family: 'Creepster', cursive; */
+    opacity: 0%;
+}
+.main:hover .curve {
+    background-color: rgb(23, 231, 93);
+    border-radius: 5% 5% 50% 50%;
+}
+
+
+.circle {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgba(189, 122, 22, 0.788);
+    margin: auto;
+    margin-top: 2em;
+    visibility: hidden;
+    transition: 3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    opacity: 0%;
+}
+
+
+
+.main:hover .circle {
+    visibility: visible;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    background-color: rgba(228, 176, 35, 0.521);
+    /*border: 2px solid white;*/
+    border-radius: 50%;
+    margin-top: 2.5em;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/77/77707.png');
+    background-size: cover;
+    opacity: 100%;
+}
+
+p {
+    visibility: hidden;
+}
+.main:hover p {
+    visibility: visible;
+    margin-top: 3.5em;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    padding: .5em;
+    font-weight: bolder;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgba(255, 72, 0, 0.911);
+    color: white;
+}
+
+body {
+    position: relative;
+}
+
+.buttons button {
+    display: block;
+    padding: .4em;
+    font-family: 'CQ Mono';
+    margin: auto;
+    background-color: aquamarine;
+    border: none;
+    margin-top: 1em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 4px 3px 0px lightgreen;
+}
+
+.bg-color {
+    height: 2em;
+    width: 4em;
+    border: none;
+    background-color: rgba(241, 64, 10, 0.767);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bolder;
+    display: block;
+    float: right;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 1em;
+}
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: violet;
+    font-size: 1em;
+    padding: 1.5em;
+}
+
+.btn_two {
+    border: none;
+    
+}

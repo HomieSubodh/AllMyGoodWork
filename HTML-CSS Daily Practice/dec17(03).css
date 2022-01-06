@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.round {
+    height: 100em;
+    width: 100em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(235, 139, 13);
+    margin: auto;
+    margin-top: 2em;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.round div {
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+    background-color: green;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+}
+
+#one {
+    left: 1em;
+}
+
+#two {
+    right: 1em;
+}
+
+#three {
+    height: 10em;
+    width: 10em;
+    left: 25em;
+    top: 30em;
+    background: black;
+    position: absolute;
+}
+
+#three .retina {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 2em;
+    left: 2.5em;
+}
+
+#four {
+    height: 10em;
+    width: 10em;
+    right: 25em;
+    top: 30em;
+    background: black;
+    position: absolute;
+}
+
+#four .retina:nth-child(1) {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 2em;
+    left: 2.5em;
+}
+
+hr {
+    height: 1em;
+    width: 50%;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+    background-color: rgb(228, 13, 84);
+    position: absolute;
+    top: 60em;
+    left: 25em;
+    border: none;
+}

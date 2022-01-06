@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    font-family: 'CQ Mono';
+    font-weight: 2px;
+    box-sizing: border-box;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.newlist ul {
+    width: 100%;
+}

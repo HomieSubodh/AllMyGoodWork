@@ -1,0 +1,50 @@
+* {
+    font-family: 'CQ Mono';
+}
+
+h1 {
+    height: 10em;
+    width: fit-content;
+    transform: scale(.4);
+    -webkit-transform: scale(.4);
+    -moz-transform: scale(.4);
+    -ms-transform: scale(.4);
+    -o-transform: scale(.4);
+}
+
+.underline_h1 {
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid white;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.todoList {
+    color: rgb(48,240,217);
+}
+
+.btn_one{
+    display: block;
+    background-color: yellow;
+    height: 2.5em;
+    width: 6em;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: auto;
+}
+
+/*
+.ahref_list a{
+    display: block;
+    text-decoration: none;
+    color: pink;
+} */
+
+

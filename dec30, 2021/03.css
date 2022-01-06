@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    height: 200em;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(245, 36, 9, 0.808);
+}
+
+*:focus {
+    outline: 2px solid rgba(245, 61, 6, 0.712);
+}
+
+/* input:focus {
+    outline: none;
+} */
+
+#input_one {
+    border: 1px solid orchid;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: .5em;
+    font-family: 'Fredoka One', cursive;
+    font-weight: thin;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+

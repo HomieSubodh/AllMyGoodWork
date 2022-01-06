@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    height: 1.7em;
+    width: 8em;
+    border: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgb(13, 236, 13);
+    margin-top: 1em;
+    font-weight: bolder;
+}
+
+.btn i {
+    font-size: 1.4em;
+    color: white;
+}
+
+.div_one {
+    /*display: none;*/
+    opacity: 0%;
+    padding: 1em;
+    width: 50%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    background-color: rgb(255, 0, 106);
+    transition: 1s;
+    -webkit-transition: 1;
+    -moz-transition: 1;
+    -ms-transition: 1;
+    -o-transition: 1;
+    margin: auto;
+}
+input {
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+

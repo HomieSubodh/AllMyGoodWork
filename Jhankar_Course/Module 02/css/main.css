@@ -1,0 +1,11 @@
+a {
+    color: orange;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+a small {
+    font-weight: 300;
+}
+

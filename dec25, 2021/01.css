@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E141A;
+}
+
+.dropdown {
+    height: 34.5em;
+    width: 25em;
+    margin: 3em 2em;
+    padding-top: 10px;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    background-color: rgba(90, 23, 214, 0.863);
+    background-size: cover;
+}
+
+.circle {
+    height: 11em;
+    width: 11em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 7em;
+    background-color: rgba(24, 21, 15, 0.795);
+}
+
+.dropdown .circle lord-icon {
+    margin-top: -2.5em;
+    margin-left: .3em;
+}
+
+.circle:hover {
+    background-image: url('https://i.pinimg.com/originals/1a/61/30/1a6130c267deabfb1bc266aa68ab174d.jpg');
+    background-size: cover;
+}
+
+.circle:hover lord-icon {
+    display: none;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.dropdown h1 {
+    color: white;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+}
+
+.dropdown a {
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'CQ Mono';
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.dropdown a:hover {
+    color: black;
+}
+
+.dropdown .about_me {
+    visibility: hidden;
+    font-family: 'Baloo Da 2', cursive;
+    border: 2px solid red;
+    padding: .5em;
+    color: white;
+    position: absolute;
+    left: 20em;
+    top: 14.5em;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    opacity: 0%;
+}
+
+.dropdown a:nth-child(7):hover .about_me {
+    transition: 2s;
+    visibility: visible;
+    -webkit-transition: 1s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    opacity: 100%;
+}
+

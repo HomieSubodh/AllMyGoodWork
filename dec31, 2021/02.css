@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Pushster&family=Space+Grotesk:wght@300;400;500&family=Staatliches&display=swap');
+
+* {
+    margin: .5em;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    display: none;
+}
+
+body {
+    /* background-color: #09131B; */
+    font-family: 'Staatliches', cursive;
+    color: rgba(248, 93, 21, 0.884);
+}
+
+h1:nth-child(1) {
+    text-align: center;
+}
+
+.otg .otg_div{
+    float: left;
+    height: 5em;
+    width: 5em;
+    border: 2px solid rgba(201, 245, 3, 0.747);
+    margin: 0;
+    color: white;
+}
+
+.otg .otg_div:nth-child(1) {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 30px;
+}
+
+.otg .otg_div:last-child {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 40px;
+}
+
+.colorChanging__div {
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(23, 26, 36, 0.925);
+    height: 100em;
+}
+.mid {
+    height: 5em;
+    width: 100em;
+    margin: auto;
+}
+
+.mid ul {
+    text-align: center;
+}
+
+.mid ul li {
+    display: inline-block;
+    color: rgb(83, 230, 15);
+    padding: .5em 2em;
+    font-size: 1.2em;
+    font-family: 'CQ mono';
+    transition: 1s;
+    position: relative;
+}
+
+.mid ul li:hover {
+    color: white;
+    background-color: black;
+    margin-top: .2em;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+}
+
+.mid ul li ul {
+    position: absolute;
+    top: 100%;
+    left: -2.5em;
+    margin-top: .5em;
+    visibility: hidden;
+}
+
+.mid ul li ul li {
+    opacity: 0%;
+}
+
+.mid ul li:hover ul {
+    visibility: visible;
+}
+
+.mid ul li:hover ul li {
+    opacity: 100%;
+}
+
+.mid ul li ul li a {
+    text-decoration: none;
+    transition: 2s;
+}
+.mid ul li:hover ul li a{
+    color: rgb(238, 141, 14);
+}

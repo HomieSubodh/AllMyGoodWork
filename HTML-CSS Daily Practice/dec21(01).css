@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 20em;
+    width: 20em;
+    background-color: rgb(233, 155, 10);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.main:hover {
+    margin-left: 30em;
+    margin-top: 20em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: scale(2) rotate(120deg) skew(10deg);
+    /*transform: skew(10deg);
+    */-webkit-transform: scale(2) rotate(120deg);
+    -moz-transform: scale(2) rotate(120deg) skew(10deg);
+    -ms-transform: scale(2) rotate(120deg) skew(10deg);
+    -o-transform: scale(2) rotate(120deg) skew(10deg);
+    background-color: rgb(9, 223, 176);
+    -webkit-transform: scale(2) rotate(120deg) skew(10deg);
+}
+
+.mid {
+    height: 10em;
+    width: 10em;
+    background-color: azure;
+}
+

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Gugi&family=Pushster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgb(217, 255, 0);
+    color: black;
+}
+
+body {
+    height: 100em;
+    background-color: #0E141A;
+}
+
+body::-webkit-scrollbar {
+    height: 20px;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #0E141A;
+    box-shadow: inset 10px 10px 10px 10px black;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-image: linear-gradient(rgba(197, 252, 1, 0.979), rgb(23, 238, 88), rgb(50, 212, 18));
+}
+
+
+.basic_div {
+    height: 33.33%;
+    width: 100%;
+}
+
+.div_one{
+    background-color: red;
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    font-size: 2em;
+    color: red;
+    padding: 1em;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.div_one .inner_div_one {
+    color: white;
+    border: 2px solid yellowgreen;
+    text-align: center;
+    height: 3em;
+    width: 3em;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

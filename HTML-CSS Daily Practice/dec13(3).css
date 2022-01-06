@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift';
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 3em;
+    height: 100%;
+    width: 100%;
+}
+
+h1:nth-child(1), h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+hr{
+    width: 5%;
+    margin: auto;
+}
+
+.first{
+    display: inline-block;
+    width: 90%;
+    margin: auto;
+    background-color: gray;
+}
+
+.first .circles{
+    height: 9em;
+    width: 9em;
+    border-radius: 50%;
+    background-color: blue;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* display: inline-block; */
+    margin-left: 1em;
+    float: left;
+}
+
+.big_image{
+    height: 25em;
+    width: 25em;
+    margin-top: 15em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    float: left;
+    background-image: url('https://t3.ftcdn.net/jpg/02/58/89/90/360_F_258899001_68CalsKTRk6PZQgWH9JhR4heBlncCko9.jpg');
+}
+
+.big_image:hover{
+    box-shadow: 0px 0px 5px 5px;
+    border: 1px solid white;
+}
+
+.my_intro{
+    height: 20em;
+    width: 50%;
+    margin-top: 7em;
+    margin-right: 30em;
+    float: right;
+}
+
+p{
+    font-size: 1.3em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+

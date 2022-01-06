@@ -1,0 +1,70 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100em;
+}
+
+::selection {
+    color: white;
+    background-color: rgba(255, 72, 0, 0.849);
+}
+
+body::-webkit-scrollbar {
+    height: 20px;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    /* background-color: #0E141A; */
+    box-shadow: inset 10px 10px 10px 10px white;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-image: linear-gradient(rgba(197, 252, 1, 0.979), rgb(23, 238, 88), rgb(50, 212, 18));
+}
+
+.div_one {
+    /* background-color: red; */
+    background-image: url('https://images5.alphacoders.com/992/992745.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50em;
+    width: 100%;
+    position: relative;
+}
+
+.div_one .transparent_one {
+    color: white;
+    font-family: 'CQ Mono';
+    font-size: 1em;
+    height: 20%;
+    width: 20%;
+    background-color: rgba(52, 22, 220, 0.25);
+    /*border: 2px solid;
+    */text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    /* position: sticky; */
+}
